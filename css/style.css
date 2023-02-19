@@ -52,8 +52,8 @@ body {
 }
 
 .nav.link {
-	color: var(--header-text-color);
 	font-weight: 500;
+	color: var(--header-text-color);
 }
 
 .nav.link:hover,
