@@ -52,7 +52,8 @@ body {
 }
 
 .nav.link {
-	color: var(--dark-brand-color);
+	color: var(--header-text-color);
+	font-weight: 500;
 }
 
 .nav.link:hover,
@@ -61,7 +62,7 @@ body {
 }
 
 .nav.link.active {
-	color: var(--accent-link-color);
+	color: var(--accent-link-color)
 }
 
 .address.link {
@@ -90,6 +91,9 @@ body {
 	background-color: var(--primery-brend-color);
 	color: var(--primery-white-color);
 	font-weight: 500;
+	font-size: inherit;
+	line-height: inherit;
+	letter-spacing: 0.04em;
 	cursor: pointer;
 	padding: 16px 32px;
 	gap: 10px;
@@ -157,6 +161,9 @@ body {
 
 .filter-button {
 	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
 	padding: 12px 24px;
 	border: 1px solid var(--border-color);
 	border-radius: 4px;
@@ -170,7 +177,7 @@ body {
 .filter-button:focus {
 	color: var(--primery-white-color);
 	background-color: var(--accent-link-color);
-	border: 1px solid var(--accent-link-color);
+	border-color: var(--accent-link-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -179,12 +186,10 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
-	cursor: pointer;
 }
 
 .port-filtr {
 	color: var(--body-text-color);
-	cursor: pointer;
 }
 
 .hide {
